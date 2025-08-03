@@ -3,13 +3,13 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
+#include <dt-bindings/zmk/matrix_transform.h>
  #include "quickdraw.dtsi"
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-         zmk,physical-layout = &physical_layout0;
+        zmk,physical-layout = &physical_layout0;
     };
 
     mock_kscan: mock_kscan_0 {
@@ -27,4 +27,3 @@
         transform = <&default_transform>;
     };
 };
-
