@@ -1,0 +1,11 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_QUICKDRAW_LEFT
+    def_bool $(shields_list_contains,quickdraw_left)
+
+config SHIELD_QUICKDRAW_RIGHT
+    def_bool $(shields_list_contains,quickdraw_right)
+
+config SHIELD_QUICKDRAW_DONGLE
+    def_bool $(shields_list_contains,quickdraw_dongle)

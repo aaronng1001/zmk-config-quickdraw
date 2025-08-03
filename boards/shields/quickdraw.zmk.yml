@@ -1,0 +1,12 @@
+file_format: "1"
+id: quickdraw
+name: Quickdraw
+type: shield
+url: https://github.com/aaronng1001/zmk-config/tree/ihcrn
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - quickdraw_left_left
+  - quickdraw_right_right
+  - quickdraw_dongle_dongle
