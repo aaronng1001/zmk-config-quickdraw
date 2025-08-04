@@ -7,6 +7,6 @@ requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - quickdraw_left_left
-  - quickdraw_right_right
-  - quickdraw_dongle_dongle
+  - quickdraw_left
+  - quickdraw_right
+  - quickdraw_dongle

@@ -6,24 +6,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
  #include "quickdraw.dtsi"
 
-/ {
-    chosen {
-        zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout0;
-    };
-
-    mock_kscan: mock_kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
-    };
-};
-
-/ {
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        transform = <&default_transform>;
-    };
-};
+ &kscan0 {
+     col-gpios
+         = <&xiao_d 8 GPIO_ACTIVE_HIGH>
+         , <&xiao_d 9 GPIO_ACTIVE_HIGH>
+         , <&xiao_d 10 GPIO_ACTIVE_HIGH>
+         , <&xiao_d 5 GPIO_ACTIVE_HIGH>
+         , <&xiao_d 4 GPIO_ACTIVE_HIGH>
+         ;
+ };
