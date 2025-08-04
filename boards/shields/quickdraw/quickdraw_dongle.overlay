@@ -3,15 +3,23 @@
  *
  * SPDX-License-Identifier: MIT
  */
+#include <dt-bindings/zmk/matrix_transform.h>
+ #include "quickdraw.dtsi"
 
+<<<<<<< HEAD
 #include "quickdraw.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
+=======
+>>>>>>> parent of 872d4fa (physical layout attemt 2)
 / {
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 872d4fa (physical layout attemt 2)
     };
 
     mock_kscan: mock_kscan_0 {
@@ -20,6 +28,7 @@
         rows = <0>;
         events = <0>;
     };
+<<<<<<< HEAD
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
@@ -37,10 +46,16 @@
         >;
     };
     
+=======
+};
+
+/ {
+>>>>>>> parent of 872d4fa (physical layout attemt 2)
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
+<<<<<<< HEAD
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0     0     0>
@@ -89,3 +104,7 @@
 
 };
 
+=======
+    };
+};
+>>>>>>> parent of 872d4fa (physical layout attemt 2)
