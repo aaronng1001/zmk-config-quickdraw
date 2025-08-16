@@ -15,17 +15,17 @@
 
         Base {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+            // | ESC  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+            // | TAB  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+            //                    | ctrl| SPC | lwr |   | rse | ent  | ALT |
 
             label = "Base";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB     &kp A  &kp S  &kp D      &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LSHFT   &kp Z  &kp X  &kp C      &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                          &kp LCTRL  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp ESCAPE  &kp Q  &kp W  &kp F      &kp P      &kp B        &kp J    &kp L  &kp U      &kp Y    &kp SEMI  &kp BSPC
+&kp TAB     &kp A  &kp R  &kp S      &kp T      &kp G        &kp M    &kp N  &kp E      &kp I    &kp O     &kp APOS
+&kp LSHFT   &kp Z  &kp X  &kp C      &kp D      &kp V        &kp K    &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
+                          &kp LCTRL  &kp space  &mo 1        &mo 2  &kp retmo 2  &kp RALT
             >;
         };
 
