@@ -18,14 +18,14 @@
             // | ESC  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U  |  I  |  O  |  P  | BKSP |
             // | TAB  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J  |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M  |  ,  |  .  |  /  | ESC  |
-            //                    | ctrl| SPC | lwr |   | rse | ent | ALT |
+            //                    | ctrl| ENTR| lwr |   | rse | SPC | ALT |
 
             label = "Base";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp F      &kp P      &kp B        &kp J    &kp L    &kp U      &kp Y    &kp SEMI  &kp BSPC
-&kp TAB     &kp A  &kp R  &kp S      &kp T      &kp G        &kp M    &kp N    &kp E      &kp I    &kp O     &kp APOS
-&kp LSHFT   &kp Z  &kp X  &kp C      &kp D      &kp V        &kp K    &kp H    &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                          &kp LCTRL  &kp SPACE  &mo 1        &mo 2    &kp RET  &kp RALT
+&kp ESCAPE  &kp Q  &kp W  &kp F      &kp P      &kp B        &kp J    &kp L      &kp U      &kp Y    &kp SEMI  &kp BSPC
+&kp TAB     &kp A  &kp R  &kp S      &kp T      &kp G        &kp M    &kp N      &kp E      &kp I    &kp O     &kp APOS
+&kp LSHFT   &kp Z  &kp X  &kp C      &kp D      &kp V        &kp K    &kp H      &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
+                          &kp LCTRL  &kp RET    &mo 1       &mo 2     &kp SPACE  &kp RALT
             >;
         };
 
