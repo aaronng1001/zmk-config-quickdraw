@@ -17,8 +17,8 @@
          = <&xiao_d 6 GPIO_ACTIVE_HIGH>
          , <&xiao_d 5 GPIO_ACTIVE_HIGH>
          , <&xiao_d 4 GPIO_ACTIVE_HIGH>
-         , <&xiao_d 12 GPIO_ACTIVE_HIGH>
-         , <&xiao_d 11 GPIO_ACTIVE_HIGH>
+         , <&xiao_d 2 GPIO_ACTIVE_HIGH>
+         , <&xiao_d 1 GPIO_ACTIVE_HIGH>
          , <&xiao_d 10 GPIO_ACTIVE_HIGH>
          ;
     
